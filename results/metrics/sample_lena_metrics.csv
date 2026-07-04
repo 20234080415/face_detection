@@ -1,0 +1,8 @@
+﻿image,method,face_count,eye_count,elapsed_ms
+sample_lena.jpg,original,1,2,707.508
+sample_lena.jpg,gray,1,2,23.698
+sample_lena.jpg,hist_eq,1,2,24.155
+sample_lena.jpg,clahe,1,2,30.215
+sample_lena.jpg,gaussian_clahe,1,2,28.297
+sample_lena.jpg,median_clahe,1,2,29.293
+sample_lena.jpg,gamma_clahe,1,2,29.631

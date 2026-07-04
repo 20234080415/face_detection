@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "image": "sample_lena.jpg",
+      "method": "original",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 707.508
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "gray",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 23.698
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "hist_eq",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 24.155
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 30.215
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "gaussian_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 28.297
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "median_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 29.293
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "gamma_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 29.631
+    }
+  ],
+  "stability": {
+    "mode_face_count": 1,
+    "agreement_ratio": 1.0,
+    "face_count_std": 0.0,
+    "note": "Without labels, agreement only measures consistency; it is not detection accuracy."
+  },
+  "parameter_search": {},
+  "images_processed": 1
+}

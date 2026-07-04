@@ -1,0 +1,159 @@
+{
+  "records": [
+    {
+      "image": "sample_lena.jpg",
+      "method": "original",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 708.727
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "gray",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 26.095
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "hist_eq",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 25.071
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 32.595
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "gaussian_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 34.859
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "median_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 28.236
+    },
+    {
+      "image": "sample_lena.jpg",
+      "method": "gamma_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 26.016
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "original",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 22.562
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "gray",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 19.792
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "hist_eq",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 23.87
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 25.377
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "gaussian_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 24.735
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "median_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 26.865
+    },
+    {
+      "image": "sample_lowlight.jpg",
+      "method": "gamma_clahe",
+      "face_count": 1,
+      "eye_count": 2,
+      "elapsed_ms": 25.723
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "original",
+      "face_count": 1,
+      "eye_count": 1,
+      "elapsed_ms": 29.167
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "gray",
+      "face_count": 1,
+      "eye_count": 1,
+      "elapsed_ms": 26.563
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "hist_eq",
+      "face_count": 1,
+      "eye_count": 1,
+      "elapsed_ms": 28.35
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "clahe",
+      "face_count": 1,
+      "eye_count": 1,
+      "elapsed_ms": 28.657
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "gaussian_clahe",
+      "face_count": 2,
+      "eye_count": 2,
+      "elapsed_ms": 30.218
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "median_clahe",
+      "face_count": 2,
+      "eye_count": 2,
+      "elapsed_ms": 28.616
+    },
+    {
+      "image": "sample_noise.jpg",
+      "method": "gamma_clahe",
+      "face_count": 1,
+      "eye_count": 1,
+      "elapsed_ms": 23.837
+    }
+  ],
+  "stability": {
+    "mode_face_count": 1,
+    "agreement_ratio": 0.904762,
+    "face_count_std": 0.293544,
+    "note": "Without labels, agreement only measures consistency; it is not detection accuracy."
+  },
+  "parameter_search": {},
+  "images_processed": 3
+}
