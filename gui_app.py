@@ -255,7 +255,8 @@ class FaceDetectionWindow(QMainWindow):
         QMessageBox.warning(self, "提示", message)
 
     def _apply_style(self) -> None:
-        self.setStyleSheet("""
+        """应用主窗口样式；样式文本在此处完整定义并显式传入 Qt。"""
+        stylesheet = """
             QMainWindow { background: #f3f6fa; }
             QGroupBox { font-weight: bold; border: 1px solid #c7d2e0; border-radius: 8px; margin-top: 10px; padding: 12px; background: white; }
             QGroupBox::title { subcontrol-origin: margin; left: 12px; padding: 0 5px; }
@@ -264,10 +265,12 @@ class FaceDetectionWindow(QMainWindow):
             #imagePanel { border: 2px dashed #a8b6c8; border-radius: 10px; background: #17202b; color: #d7e0ea; font-size: 18px; }
             #infoPanel { border: 1px solid #c7d2e0; border-radius: 8px; padding: 10px; background: white; line-height: 1.5; }
             QSpinBox, QDoubleSpinBox { min-height: 28px; }
-        """)
+        """
+        self.setStyleSheet(stylesheet)
 
 
 def main() -> int:
+    """创建 Qt 应用和主窗口，并进入 GUI 事件循环。"""
     app = QApplication(sys.argv)
     # Windows 中文界面优先加载系统微软雅黑；某些精简 Conda/Qt 环境不会自动发现系统字体。
     font_path = Path(os.environ.get("WINDIR", "C:/Windows")) / "Fonts" / "msyh.ttc"
